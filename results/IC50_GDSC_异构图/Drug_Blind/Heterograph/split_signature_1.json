@@ -1,0 +1,13 @@
+{
+  "response": "data/heterograph_GDSC/response/IC50_GDSC_异构图.txt",
+  "choice": 2,
+  "fold": 1,
+  "seed_split": 2021,
+  "train_rows": 71896,
+  "valid_rows": 9264,
+  "test_rows": 8680,
+  "train_sha256": "6180045b06484224482a6e62be707540d681be146494dac6efee3394966a8c5f",
+  "valid_sha256": "bcad112c4e01841945d89fd4b8e0d5771b589122158d07e89f9ec0ec9aee2802",
+  "test_sha256": "b7ce793cc93d8365a35b2c54b09639497334b1e1009600d901157428b927e467",
+  "test_drugs_sha256": "085a0de27776cfcbb30a71f873512bcafeaeab98b50c9f38fa003c9b59611efa"
+}
