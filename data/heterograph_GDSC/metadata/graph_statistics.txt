@@ -1,0 +1,32 @@
+================================================================================
+Drug-Cell-Gene Heterogeneous Graph Statistics
+================================================================================
+
+[Nodes]
+Drug nodes : 165
+Cell nodes : 617
+Gene nodes : 1,157
+
+[Node features]
+Drug x : (165, 1024)
+Cell x : (617, 1410)
+Gene x : (1157, 1280)
+
+[Edges]
+Drug --binds_ki--> Gene : 602
+Gene --rev_binds_ki--> Drug : 602
+Cell --crispr--> Gene : 703,597
+Gene --rev_crispr--> Cell : 703,597
+Gene --ppi--> Gene : 14,156
+
+[Edge attributes]
+Drug-Gene edge_attr = pAffinity
+Drug-Gene additionally stores Ki_nM
+Cell-Gene edge_attr = raw GeneEffect
+Gene-Gene edge_attr = PPI_score
+
+[Missing / isolated]
+Missing CRISPR Cell-Gene pairs : 10,272
+Drugs without Ki edge : 0
+Cells without CRISPR edge : 0
+Genes without any edge : 0

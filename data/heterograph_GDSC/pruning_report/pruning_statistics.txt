@@ -1,0 +1,16 @@
+Heterograph Cell Pruning Statistics
+================================================================================
+
+Source graph: /homeb/lihuanhuan/20260714/260918/GCNPath2026/data/heterograph_GDSC
+Output graph: /homeb/lihuanhuan/20260714/260918/heterograph_GDSC_response_cells_only
+
+Original Cell nodes: 617
+Response Cell nodes: 593
+Kept Cell nodes: 593
+Removed Cell nodes: 24
+
+Original Cell-Gene edges: 703597
+Filtered Cell-Gene edges: 676279
+Removed Cell-Gene edges: 27318
+
+New Cell feature shape: (593, 1410)

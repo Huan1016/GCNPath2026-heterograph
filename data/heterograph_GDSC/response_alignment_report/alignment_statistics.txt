@@ -1,0 +1,17 @@
+Heterograph Response Alignment
+================================================================================
+Response rows: 89840
+Response drugs: 165
+Response cells: 592
+Backup: /homeb/lihuanhuan/20260714/260918/GCNPath2026_backup_before_heterograph/data/heterograph_GDSC/backups/before_response_alignment_20260919_181215
+
+drug: 165 -> 165
+cell: 592 -> 592
+gene: 1157 -> 1157
+drug_gene: 602 -> 602
+cell_gene: 675142 -> 675142
+gene_gene: 14156 -> 14156
+
+Isolated drug nodes: 0
+Isolated cell nodes: 0
+Isolated gene nodes: 0

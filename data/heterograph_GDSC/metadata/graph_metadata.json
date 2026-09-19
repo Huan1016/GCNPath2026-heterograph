@@ -1,0 +1,59 @@
+{
+  "graph_file": "/homeb/lihuanhuan/20260714/baseline/GDSC药物敏感性注释数据-NCI60/异构图/Drug_Cell_Gene_HeteroData.pt",
+  "node_counts": {
+    "drug": 165,
+    "cell": 592,
+    "gene": 1157
+  },
+  "feature_dimensions": {
+    "drug_Morgan": 1024,
+    "cell_RNA": 1410,
+    "gene_ESM2": 1280
+  },
+  "edge_counts": {
+    "drug__binds_ki__gene": 602,
+    "gene__rev_binds_ki__drug": 602,
+    "cell__crispr__gene": 675142,
+    "gene__rev_crispr__cell": 675142,
+    "gene__ppi__gene": 14156
+  },
+  "edge_attributes": {
+    "drug__binds_ki__gene": {
+      "edge_attr": "pAffinity",
+      "extra": [
+        "pAffinity",
+        "Ki_nM"
+      ]
+    },
+    "cell__crispr__gene": {
+      "edge_attr": "raw GeneEffect"
+    },
+    "gene__ppi__gene": {
+      "edge_attr": "PPI_score",
+      "extra": "combined_score"
+    }
+  },
+  "graph_design": {
+    "drug_cell_response_edges": false,
+    "ppi_bidirectional": true,
+    "drug_gene_reverse_edges": true,
+    "cell_gene_reverse_edges": true,
+    "ppi_self_loops_added": false,
+    "crispr_normalized": false,
+    "crispr_absolute_value": false
+  },
+  "missing_or_isolated": {
+    "missing_crispr_pairs": 9802,
+    "drugs_without_ki_edge": 0,
+    "cells_without_crispr_edge": 0,
+    "genes_without_any_edge": 0
+  },
+  "response_alignment": {
+    "response_file": "response/IC50_GDSC_异构图.txt",
+    "response_rows": 89840,
+    "response_drugs": 165,
+    "response_cells": 592,
+    "aligned_at": "20260919_181215",
+    "backup_directory": "backups/before_response_alignment_20260919_181215"
+  }
+}
